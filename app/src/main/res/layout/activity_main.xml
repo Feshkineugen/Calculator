@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:hint="@string/first"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:gravity="center"
+        android:hint="@string/second"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor,TextFields"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="278dp"
+        android:layout_height="79dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/slog"
+        android:textSize="30sp"
+        android:textColor="@color/lightblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
