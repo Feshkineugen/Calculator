@@ -24,7 +24,7 @@ public class ResultActivity extends AppCompatActivity {
                 answer.setText(etX + " + " + "(" + etY + ")" + " = " + result);
             }
         }catch (NumberFormatException e){
-            answer.setText("Ты дурак, иди попу нюхай!");
+            answer.setText("Ошибка");
         }
     }
 }
